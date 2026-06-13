@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MindSpore / Ascend Debug
+rank_0/
+
+# Model Checkpoints
+model_resnet/
+
+# Flower dataset: keep only train/test dirs, ignore all contents
+flowers/flower_photos_train/**
+!flowers/flower_photos_train/.gitkeep
+flowers/flower_photos_test/**
+!flowers/flower_photos_test/.gitkeep
